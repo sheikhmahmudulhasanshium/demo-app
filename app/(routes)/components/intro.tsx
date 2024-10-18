@@ -1,4 +1,9 @@
 import Image from "next/image";
+import Icon1 from "/app/public/icons8-dollar-sign-50.png"
+import Icon2 from "/app/public/icons8-like-64.png"
+import Icon3 from "/app/public/icons8-protect-50.png"
+import Icon4 from "/app/public/icons8-thunder-50.png"
+
 const Intro = () => {
     return (  
         <div className="flex flex-wrap flex-col w-full justify-center items-center top-64 text-justify  font-FigTree gap-2">
@@ -12,25 +17,24 @@ const Intro = () => {
             </div>
             <div className=" w-8/12  py-2 gap-2   flex font-Montserrat text-center items-start">
                 <div className="flex flex-col justify-center items-center  text-sm font-thin w-3/12">
-                    <Image src={``} alt="dollar" width="48" height="48"/>
+                    <Image src={Icon1} alt="dollar" width="48" height="48"/>
                     <p>Up to 30% more
                     conversions</p>
                 </div>
                 <div className="flex flex-col justify-center items-center  text-sm font-thin w-3/12">
-                    <Image src={``} alt="like" width="48" height="48"/>
+                    <Image src={Icon2} alt="like" width="48" height="48"/>
 
                     <p>Competitive
                     Advantage</p>
                 </div>
                 <div className="flex flex-col justify-center items-center  text-sm font-thin w-3/12">
-                    <Image src={``} alt="sheild" width="48" height="48"/>
+                    <Image src={Icon3} alt="sheild" width="48" height="48"/>
 
                     <p>GDRP 
                     Compliant</p>
                 </div>
                 <div className="flex flex-col justify-center items-center text-sm font-thin w-3/12">
-                    <Image src={``} alt="thunder" width="48" height="48"/>
-
+                    <Image src={Icon4} alt="thunder" width="50" height="50"/>
                     <p>Faster website</p>
                 </div>
             </div>

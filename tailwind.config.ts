@@ -14,7 +14,8 @@ const config: Config = {
       display: ['Oswald', 'sans-serif'],
       body: ['"Open Sans"', 'sans-serif'],
       FigTree: ['Figtree', 'sans-serif'],
-      Montserrat: ['Montserrat','sans-serif']
+      Montserrat: ['Montserrat','sans-serif'],
+      Poppins: ['Poppins','sans-serif']
     },
     extend: {
       colors: {
