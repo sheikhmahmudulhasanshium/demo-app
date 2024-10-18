@@ -20,7 +20,7 @@ const ServiceList = [
 
 const Services = () => {
     return ( 
-        <div className="flex flex-col w-full justify-between items-center gap-2">
+        <div className="flex flex-col w-full justify-between items-center gap-2 pt-12">
             <p className=" text-3xl text-center font-FigTree font-bold">Services offered</p>
             <p className="w-6/12 text-center">We will help a client&apos;s problems to develop the products they
             have with high quality</p>
