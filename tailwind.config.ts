@@ -7,13 +7,24 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ['ui-sans-serif', 'system-ui', 'Helvetica', 'Arial', 'sans-serif'],
+      serif: ['ui-serif', 'Georgia', 'serif'],
+      mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
+      display: ['Oswald', 'sans-serif'],
+      body: ['"Open Sans"', 'sans-serif'],
+      FigTree: ['Figtree', 'sans-serif'],
+      Montserrat: ['Montserrat','sans-serif']
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        CustomBlue: "#0099FF", 
       },
     },
   },
-  plugins: [],
+  plugins: [], 
 };
+
 export default config;
